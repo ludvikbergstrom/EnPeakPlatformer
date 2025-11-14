@@ -4,6 +4,14 @@ public class scr_ground_check : MonoBehaviour
 {
     public bool isGrounded;
 
+    public bool isGroundSlippery;
+
+    private void Update()
+    {
+        isGroundSlippery = MapManager.Instance.GetTileSlipperines(transform.position - new Vector3(0f,0.2f,0f));
+        Debug.Log(isGroundSlippery);
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Surface"))
@@ -17,6 +25,7 @@ public class scr_ground_check : MonoBehaviour
         if(collision.CompareTag("Surface"))
         {
             isGrounded = false;
+            isGroundSlippery = false;
         }
     }
 }

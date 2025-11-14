@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570497510331982555}
   - component: {fileID: 9221950660610164972}
+  - component: {fileID: -4088303385455248210}
   m_Layer: 6
   m_Name: SplatterPrefab
   m_TagString: Untagged
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1449942278711935866, guid: 3722435ca6e944e40bbe146c1e4fe58f, type: 3}
-  m_Color: {r: 0.34901962, g: 0.1882353, b: 0.003921569, a: 1}
+  m_Color: {r: 0.7725491, g: 0.9333334, b: 0.92549026, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -90,3 +91,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4088303385455248210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2637544042756973922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8087aefa6e7cba4428ee615d94ff3cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scr_Splatter

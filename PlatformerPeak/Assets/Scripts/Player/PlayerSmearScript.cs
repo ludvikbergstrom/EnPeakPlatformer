@@ -1,11 +1,13 @@
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerSmearScript : MonoBehaviour
 {
     public GameObject smearPrefab; //poop smear
     public float smearRate = 0.1f;
-    float nextSmear;
+
+    public bool smearOn = false;
+    private float nextSmear;
     Rigidbody2D rigidBody;
 
     private void Start()
@@ -13,18 +15,30 @@ public class PlayerSmearScript : MonoBehaviour
         rigidBody= GetComponent<Rigidbody2D>();
     }
 
+    public void SmearToggle(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            smearOn = !smearOn;
+            Debug.Log("smear toogle");
+        }
+    }
+
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if ( nextSmear <= Time.time)
+        if (smearOn)
         {
-            if (collision.gameObject.CompareTag("Surface"))
+            if (nextSmear <= Time.time)
             {
-                foreach (ContactPoint2D contact in collision.contacts)
+                if (collision.gameObject.CompareTag("Surface"))
                 {
-                    if (rigidBody.linearVelocity.magnitude > 0)
+                    foreach (ContactPoint2D contact in collision.contacts)
                     {
-                        Instantiate(smearPrefab, contact.point, Quaternion.identity);
-                        nextSmear = Time.time + smearRate;
+                        if (rigidBody.linearVelocity.magnitude > 0)
+                        {
+                            Instantiate(smearPrefab, contact.point, Quaternion.identity);
+                            nextSmear = Time.time + smearRate;
+                        }
                     }
                 }
             }
