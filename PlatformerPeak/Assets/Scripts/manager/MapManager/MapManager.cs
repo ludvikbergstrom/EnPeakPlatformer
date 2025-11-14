@@ -1,7 +1,8 @@
-using UnityEngine;
-using UnityEngine.Tilemaps;
-using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
+using static UnityEngine.Rendering.DebugUI;
 public class MapManager : MonoBehaviour
 {
     public static MapManager Instance { get; private set; }
@@ -82,4 +83,55 @@ public class MapManager : MonoBehaviour
         return false;
     }
 
+    public void SwitchTile(bool isSlime)
+    {
+        if (isSlime)
+        {
+            BoundsInt bounds = map.cellBounds;
+
+            foreach (Vector3Int pos in bounds.allPositionsWithin)
+            {
+                TileBase tile = map.GetTile(pos);
+
+                if (tile != null)
+                {
+                    if (dataFromTiles.ContainsKey(tile))
+                    {
+                        if (dataFromTiles[tile].tileType.ToString() == "Ice")
+                        {
+                            map.SetColliderType(pos, Tile.ColliderType.None);
+                        }
+                        if (dataFromTiles[tile].tileType.ToString() == "Slime")
+                        {
+                            map.SetColliderType(pos, Tile.ColliderType.Sprite);
+                        }
+                    }
+                }
+            }
+        }
+        else
+        {
+            BoundsInt bounds = map.cellBounds;
+
+            foreach (Vector3Int pos in bounds.allPositionsWithin)
+            {
+                TileBase tile = map.GetTile(pos);
+
+                if (tile != null)
+                {
+                    if (dataFromTiles.ContainsKey(tile))
+                    {
+                        if (dataFromTiles[tile].tileType.ToString() == "Slime")
+                        {
+                            map.SetColliderType(pos, Tile.ColliderType.None);
+                        }
+                        if (dataFromTiles[tile].tileType.ToString() == "Ice")
+                        {
+                            map.SetColliderType(pos, Tile.ColliderType.Sprite);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 1742647351612394940}
   - component: {fileID: 7979541756226919400}
   - component: {fileID: 5442342079265828264}
+  - component: {fileID: 6408936431715156917}
   - component: {fileID: -5634449149564771045}
   m_Layer: 0
   m_Name: Player
@@ -267,19 +268,7 @@ MonoBehaviour:
     m_ActionId: 6c2ab1b8-8984-453a-af3d-a3c78ae1679a
     m_ActionName: 'Player/Attack[/DualSenseGamepadHID/buttonWest,/Mouse/leftButton,/Keyboard/enter]'
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1742647351612394940}
-        m_TargetAssemblyTypeName: PlayerSmearScript, Assembly-CSharp
-        m_MethodName: SmearToggle
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: 852140f2-7766-474d-8707-702459ba45f3
     m_ActionName: 'Player/Interact[/Keyboard/e,/DualSenseGamepadHID/buttonNorth]'
   - m_PersistentCalls:
@@ -354,6 +343,38 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1742647351612394940}
+        m_TargetAssemblyTypeName: PlayerSmearScript, Assembly-CSharp
+        m_MethodName: SmearToggle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b9441859-c694-4d19-92ae-0bfd3c609d9b
+    m_ActionName: 'Player/ToggleSmear[/Keyboard/e,/DualSenseGamepadHID/buttonEast]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6408936431715156917}
+        m_TargetAssemblyTypeName: PlayerTileSwitcher, Assembly-CSharp
+        m_MethodName: ChangeTile
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c666a9d4-33ac-459c-9462-f89e27fadb1c
+    m_ActionName: 'Player/SwitchPlatforms[/Keyboard/q,/DualSenseGamepadHID/buttonEast]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -374,6 +395,19 @@ MonoBehaviour:
   jumpStrength: 5
   moveSpeed: 4
   Ground_Check: {fileID: 3233979830616227242}
+--- !u!114 &6408936431715156917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5193998069045405871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebfdafd92b355543bff51514d8416f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerTileSwitcher
+  isSlime: 0
 --- !u!114 &-5634449149564771045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,6 +586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02661737359f3484bab707a60f17f20f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scr_SplatterTileChanger
-  grassTile: {fileID: 11400000, guid: 43ac508f208a7dc40a9afae374c718d6, type: 2}
-  iceTile: {fileID: 11400000, guid: f0e79606edfefb64eaa446c4fb7866d4, type: 2}
+  tilesToChange:
+  - {fileID: 11400000, guid: 43ac508f208a7dc40a9afae374c718d6, type: 2}
+  - {fileID: 11400000, guid: 8dcb6c89c21a9cb48882b9fae4d41a1c, type: 2}
+  newTile: {fileID: 11400000, guid: f0e79606edfefb64eaa446c4fb7866d4, type: 2}
   smearScript: {fileID: 1742647351612394940}

@@ -1,15 +1,18 @@
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using System.Collections.Generic;
+
 
 public class Scr_SplatterTileChanger : MonoBehaviour
 {
     private Tilemap map;
 
     [SerializeField]
-    private TileBase grassTile;
+    private List<TileBase> tilesToChange;
 
     [SerializeField]
-    private TileBase iceTile;
+    private TileBase newTile;
 
     public PlayerSmearScript smearScript;
 
@@ -23,8 +26,8 @@ public class Scr_SplatterTileChanger : MonoBehaviour
         {
             Vector3 offsetPos = transform.position - new Vector3(0f, 0.2f, 0f);
             Vector3Int cellPos = Vector3Int.FloorToInt(offsetPos);
-            if (map.GetTile(cellPos) == grassTile)
-                map.SetTile(cellPos, iceTile);
+            if (tilesToChange.Contains(map.GetTile(cellPos)))
+                map.SetTile(cellPos, newTile);
         }
     }
 }

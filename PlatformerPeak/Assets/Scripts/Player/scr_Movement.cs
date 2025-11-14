@@ -11,16 +11,22 @@ public class scr_Movement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movementInputDirection;
     private Vector2 localMovementInputDirection;
+
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
+
+
     void Update()
     {
-        rb.linearVelocity = movementInputDirection * moveSpeed + new Vector2(0, rb.linearVelocityY);
+
+
+        rb.linearVelocity = new Vector2(movementInputDirection.x * moveSpeed, rb.linearVelocityY);
     }
+
     public void Jump(InputAction.CallbackContext ctx)
     {
         if(ctx.performed && Ground_Check.isGrounded)
@@ -38,6 +44,5 @@ public class scr_Movement : MonoBehaviour
     { 
         var value = ctx.ReadValue<Vector2>();
         movementInputDirection = new Vector2(value.x,0);
-        localMovementInputDirection = Vector2.Lerp(localMovementInputDirection, movementInputDirection, moveSpeed);
     }
 }
