@@ -10,6 +10,7 @@ public class scr_Movement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 movementInputDirection;
+    private Vector2 localMovementInputDirection;
     
     void Start()
     {
@@ -37,5 +38,6 @@ public class scr_Movement : MonoBehaviour
     { 
         var value = ctx.ReadValue<Vector2>();
         movementInputDirection = new Vector2(value.x,0);
+        localMovementInputDirection = Vector2.Lerp(localMovementInputDirection, movementInputDirection, moveSpeed);
     }
 }

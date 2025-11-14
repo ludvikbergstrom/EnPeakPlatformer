@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9221950660610164972}
   - component: {fileID: -4088303385455248210}
   m_Layer: 6
-  m_Name: SplatterPrefab
+  m_Name: SplatterPrefabSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1449942278711935866, guid: 3722435ca6e944e40bbe146c1e4fe58f, type: 3}
-  m_Color: {r: 0.7725491, g: 0.9333334, b: 0.92549026, a: 1}
+  m_Color: {r: 0.9333334, g: 0.7843138, b: 0.7725491, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

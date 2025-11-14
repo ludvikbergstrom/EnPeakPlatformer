@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.77095944, g: 0.9339623, b: 0.9274465, a: 1}
+  m_Color: {r: 0.93333334, g: 0.78712773, b: 0.77254903, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -104,9 +104,8 @@ GameObject:
   - component: {fileID: 1742647351612394940}
   - component: {fileID: 7979541756226919400}
   - component: {fileID: 5442342079265828264}
-  - component: {fileID: -5634449149564771045}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -214,7 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d00a5b43ae05f04a8fa5e28f709b8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  smearPrefab: {fileID: 2637544042756973922, guid: 30f60a26a08191845a1874da4cb0d602, type: 3}
+  smearPrefab: {fileID: 2637544042756973922, guid: 8a0555e5c079d1a4bb5d5f4dc360a56d, type: 3}
   smearRate: 0.2
   smearOn: 0
 --- !u!114 &7979541756226919400
@@ -374,19 +373,6 @@ MonoBehaviour:
   jumpStrength: 5
   moveSpeed: 4
   Ground_Check: {fileID: 3233979830616227242}
---- !u!114 &-5634449149564771045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5193998069045405871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d96a3b86e52ff834fa21b6a0f9cb4bda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  p2: {fileID: 5193998069045405871, guid: 8c1e6a24bc7106e4a85bf141ea70bcdf, type: 3}
 --- !u!1 &5350540635421176039
 GameObject:
   m_ObjectHideFlags: 0

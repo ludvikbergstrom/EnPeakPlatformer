@@ -3,7 +3,6 @@ using UnityEngine.Tilemaps;
 
 public class Scr_SplatterTileChanger : MonoBehaviour
 {
-    [SerializeField]
     private Tilemap map;
 
     [SerializeField]
@@ -13,6 +12,11 @@ public class Scr_SplatterTileChanger : MonoBehaviour
     private TileBase iceTile;
 
     public PlayerSmearScript smearScript;
+
+    private void Start()
+    {
+        map = FindFirstObjectByType<Tilemap>();
+    }
     private void Update()
     {
         if (smearScript.smearOn)
