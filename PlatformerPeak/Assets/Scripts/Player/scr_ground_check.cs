@@ -6,9 +6,14 @@ public class scr_ground_check : MonoBehaviour
 
     public bool isGroundSlippery;
 
+    public bool isGroundBouncy;
+
     private void Update()
     {
         isGroundSlippery = MapManager.Instance.GetTileSlipperines(transform.position - new Vector3(0f,0.2f,0f));
+
+        isGroundBouncy = MapManager.Instance.GetTileBouncines(transform.position - new Vector3(0f, 0.2f, 0f));
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)

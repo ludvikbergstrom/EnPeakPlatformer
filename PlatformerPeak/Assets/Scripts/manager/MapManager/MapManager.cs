@@ -40,7 +40,29 @@ public class MapManager : MonoBehaviour
                 dataFromTiles.Add(tile, tileData);
             }
         }
+        //slår av hitboxes for ¨både is og slim blokker
+        BoundsInt bounds = map.cellBounds;
 
+        foreach (Vector3Int pos in bounds.allPositionsWithin)
+        {
+            TileBase tile = map.GetTile(pos);
+
+            if (tile != null)
+            {
+                if (dataFromTiles.ContainsKey(tile))
+                {
+                    if (dataFromTiles[tile].tileType.ToString() == "Ice")
+                    {
+                        map.SetColliderType(pos, Tile.ColliderType.None);
+                    }
+                    if (dataFromTiles[tile].tileType.ToString() == "Slime")
+                    {
+                        map.SetColliderType(pos, Tile.ColliderType.None);
+                    }
+                }
+            }
+
+        }
     }
 
 
@@ -77,6 +99,24 @@ public class MapManager : MonoBehaviour
         if (dataFromTiles.TryGetValue(tile, out var tileData))
         {
             return tileData.slippery;
+        }
+
+        // Tile not found in dictionary -> return false
+        return false;
+    }
+
+    public bool GetTileBouncines(Vector2 worldPosition)
+    {
+        Vector3Int gridPosition = map.WorldToCell(worldPosition);
+        TileBase tile = map.GetTile(gridPosition);
+
+        if (tile == null)
+            return false;
+
+        // Try to get tile data from the dictionary
+        if (dataFromTiles.TryGetValue(tile, out var tileData))
+        {
+            return tileData.bouncy;
         }
 
         // Tile not found in dictionary -> return false

@@ -25,7 +25,7 @@ public class Scr_SplatterTileChanger : MonoBehaviour
         if (smearScript.smearOn)
         {
             Vector3 offsetPos = transform.position - new Vector3(0f, 0.2f, 0f);
-            Vector3Int cellPos = Vector3Int.FloorToInt(offsetPos);
+            Vector3Int cellPos = map.WorldToCell(offsetPos);
             if (tilesToChange.Contains(map.GetTile(cellPos)))
                 map.SetTile(cellPos, newTile);
         }

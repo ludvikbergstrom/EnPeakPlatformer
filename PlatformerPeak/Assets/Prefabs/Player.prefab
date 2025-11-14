@@ -395,6 +395,7 @@ MonoBehaviour:
   jumpStrength: 5
   moveSpeed: 4
   Ground_Check: {fileID: 3233979830616227242}
+  LerpSpeed: 6
 --- !u!114 &6408936431715156917
 MonoBehaviour:
   m_ObjectHideFlags: 0

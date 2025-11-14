@@ -20,7 +20,6 @@ public class PlayerSmearScript : MonoBehaviour
         if (ctx.performed)
         {
             smearOn = !smearOn;
-            Debug.Log("smear toogle");
         }
     }
 
