@@ -10,10 +10,4 @@ public class scr_ChangePlayerPrefab : MonoBehaviour
         var InputManager = GameObject.FindWithTag("PlayerManager").GetComponent<PlayerInputManager>();
         InputManager.playerPrefab = p2;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

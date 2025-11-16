@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -29,6 +30,10 @@ public class scr_Movement : MonoBehaviour
     private bool slipperyActive = false;
     private float slipperyTimer = 0f;
 
+    [Header("Particle prefab")]
+    [SerializeField] private ParticleSystem moveParticles;
+    private ParticleSystem moveParticlesInstance;
+
 
     private Rigidbody2D rb;
     private Vector2 movementInputDirection;
@@ -37,6 +42,8 @@ public class scr_Movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        moveParticlesInstance = Instantiate(moveParticles, transform.position, Quaternion.identity);
     }
 
     void Update()
@@ -46,6 +53,7 @@ public class scr_Movement : MonoBehaviour
         HandleSlipperyState();
         HandleJump();
         HandleAutoBounce();
+        PlayMovementParticle();
     }
 
     // ----------------------------------------------------------
@@ -150,4 +158,31 @@ public class scr_Movement : MonoBehaviour
             }
         }
     }
+
+
+    // ----------------------------------------------------------
+    // Particle Movement trail
+    // ----------------------------------------------------------
+
+    void PlayMovementParticle()
+    {
+        if (rb.linearVelocityX > 0.1)
+        {
+            if (!moveParticlesInstance.isPlaying && Ground_Check.isGroundSlippery)
+                moveParticlesInstance.Play();
+            moveParticlesInstance.transform.rotation = Quaternion.Euler(0f, 0f, 180f);
+        }
+        else if (rb.linearVelocityX < -0.1)
+        {
+            if(!moveParticlesInstance.isPlaying && Ground_Check.isGroundSlippery)
+                moveParticlesInstance.Play();
+            moveParticlesInstance.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+        }
+        else
+        {
+            moveParticlesInstance.Stop();
+        }
+        moveParticlesInstance.transform.position = transform.position;
+    }
+
 }

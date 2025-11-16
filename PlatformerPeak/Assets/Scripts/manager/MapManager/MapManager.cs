@@ -54,10 +54,14 @@ public class MapManager : MonoBehaviour
                     if (dataFromTiles[tile].tileType.ToString() == "Ice")
                     {
                         map.SetColliderType(pos, Tile.ColliderType.None);
+                        map.SetTileFlags(pos, TileFlags.None);
+                        map.SetColor(pos, new Color(1f, 1f, 1f, 0.2f));
                     }
                     if (dataFromTiles[tile].tileType.ToString() == "Slime")
                     {
                         map.SetColliderType(pos, Tile.ColliderType.None);
+                        map.SetTileFlags(pos, TileFlags.None);
+                        map.SetColor(pos, new Color(1f, 1f, 1f, 0.2f));
                     }
                 }
             }
@@ -140,10 +144,12 @@ public class MapManager : MonoBehaviour
                         if (dataFromTiles[tile].tileType.ToString() == "Ice")
                         {
                             map.SetColliderType(pos, Tile.ColliderType.None);
+                            map.SetColor(pos, new Color(1f, 1f, 1f, 0.2f));
                         }
                         if (dataFromTiles[tile].tileType.ToString() == "Slime")
                         {
                             map.SetColliderType(pos, Tile.ColliderType.Sprite);
+                            map.SetColor(pos, new Color(1f, 1f, 1f, 1f));
                         }
                     }
                 }
@@ -164,10 +170,12 @@ public class MapManager : MonoBehaviour
                         if (dataFromTiles[tile].tileType.ToString() == "Slime")
                         {
                             map.SetColliderType(pos, Tile.ColliderType.None);
+                            map.SetColor(pos, new Color(1f, 1f, 1f, 0.2f));
                         }
                         if (dataFromTiles[tile].tileType.ToString() == "Ice")
                         {
                             map.SetColliderType(pos, Tile.ColliderType.Sprite);
+                            map.SetColor(pos, new Color(1f, 1f, 1f, 1f));
                         }
                     }
                 }

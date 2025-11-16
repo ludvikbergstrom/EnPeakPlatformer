@@ -15,5 +15,5 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: 0ba34e3fb57baa04096e2c38da91a8b3, type: 2}
   slippery: 0
-  bouncy: 1
+  bouncy: 0
   tileType: 1
