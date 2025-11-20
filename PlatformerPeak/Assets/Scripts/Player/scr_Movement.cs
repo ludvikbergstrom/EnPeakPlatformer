@@ -41,9 +41,12 @@ public class scr_Movement : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
+
         rb = GetComponent<Rigidbody2D>();
 
         moveParticlesInstance = Instantiate(moveParticles, transform.position, Quaternion.identity);
+        DontDestroyOnLoad(moveParticlesInstance);
     }
 
     void Update()
@@ -184,5 +187,6 @@ public class scr_Movement : MonoBehaviour
         }
         moveParticlesInstance.transform.position = transform.position;
     }
+
 
 }

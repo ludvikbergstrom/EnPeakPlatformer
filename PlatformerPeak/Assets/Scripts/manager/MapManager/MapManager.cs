@@ -23,7 +23,7 @@ public class MapManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);  // Optional: persist between scenes
+
         }
         else if (Instance != this)
         {
