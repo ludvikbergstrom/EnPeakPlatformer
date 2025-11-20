@@ -1,7 +1,8 @@
 using NUnit.Framework;
-using UnityEngine;
-using UnityEngine.Tilemaps;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 
 
 public class Scr_SplatterTileChanger : MonoBehaviour
@@ -20,6 +21,23 @@ public class Scr_SplatterTileChanger : MonoBehaviour
     {
         map = FindFirstObjectByType<Tilemap>();
     }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        map = FindFirstObjectByType<Tilemap>();
+    }
+
+
     private void Update()
     {
         if (smearScript.smearOn)

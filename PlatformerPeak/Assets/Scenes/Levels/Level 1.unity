@@ -481,6 +481,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 62090995246306290, guid: d9d60d47aea23ab41b1fea02a967003d, type: 3}
+      propertyPath: nextSceneName
+      value: Level 1_5
+      objectReference: {fileID: 0}
     - target: {fileID: 1746229301165857989, guid: d9d60d47aea23ab41b1fea02a967003d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
