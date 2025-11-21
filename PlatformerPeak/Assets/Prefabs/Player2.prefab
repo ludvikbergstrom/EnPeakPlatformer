@@ -240,6 +240,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   smearPrefab: {fileID: 2637544042756973922, guid: 8a0555e5c079d1a4bb5d5f4dc360a56d, type: 3}
   smearRate: 0.2
+  smearAudioClip: {fileID: 8300000, guid: 3818e798289a85f4384042817e5ef114, type: 3}
+  volume: 0.5
   smearOn: 0
 --- !u!114 &7979541756226919400
 MonoBehaviour:
@@ -451,6 +453,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerTileSwitcher
   isSlime: 1
+  switchSoundClip: {fileID: 8300000, guid: 3818e798289a85f4384042817e5ef114, type: 3}
+  volume: 0.5
 --- !u!1 &5350540635421176039
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +466,7 @@ GameObject:
   - component: {fileID: 8740362771356848781}
   - component: {fileID: 2254573439254107359}
   - component: {fileID: 2242190835786311611}
+  - component: {fileID: 6529679981778350209}
   - component: {fileID: 3233979830616227242}
   - component: {fileID: 2634123068560770237}
   - component: {fileID: 8584196742883541012}
@@ -591,6 +596,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6529679981778350209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5350540635421176039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83bcaadffecc57841abc5df2028c8745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSound
+  jumpSound: {fileID: 8300000, guid: 72c1e1836c47a0f4ea12d9fea9100c66, type: 3}
+  landSound: {fileID: 8300000, guid: b436c986724266348aeef2643358f52b, type: 3}
+  volumeLand: 0.01
+  volumeJump: 0.01
 --- !u!114 &3233979830616227242
 MonoBehaviour:
   m_ObjectHideFlags: 0

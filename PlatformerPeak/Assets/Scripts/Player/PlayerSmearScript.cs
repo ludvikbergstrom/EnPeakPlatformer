@@ -5,6 +5,9 @@ public class PlayerSmearScript : MonoBehaviour
 {
     public GameObject smearPrefab; //poop smear
     public float smearRate = 0.1f;
+    public AudioClip smearAudioClip;
+
+    [SerializeField] private float volume = 1.0f;
 
     public bool smearOn = false;
     private float nextSmear;
@@ -20,6 +23,7 @@ public class PlayerSmearScript : MonoBehaviour
         if (ctx.performed)
         {
             smearOn = !smearOn;
+            SoundFXManager.Instance.PlaySoundFXClip(smearAudioClip,transform,volume);
         }
     }
 

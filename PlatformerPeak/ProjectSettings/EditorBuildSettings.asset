@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/AmundsLevel.unity
     guid: 724135b3efd1f6743a2aacc844229b1c
   - enabled: 1
+    path: Assets/Scenes/Levels/Level 1_5.unity
+    guid: aba5bfe5202babe4798915ad406b28cf
+  - enabled: 1
     path: Assets/Scenes/Levels/Level 2.unity
     guid: 05f01682b76d3bb4dbd60741ebc9d19c
   - enabled: 1
@@ -20,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level 4.unity
     guid: 7bf75af651c7e3c48862d3d9103320da
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 5.unity
+    guid: 5105b35d21fb64445abed30da0b75afc
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 6.unity
+    guid: bcd39bb1b21b36344a0b4c9659bc10ab
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
