@@ -25,6 +25,7 @@ public class NextLevel : MonoBehaviour
 
         if (playersInDoor == 2)
         {
+            SceneController.instance.ChangingScene = true;
             SceneController.instance.LoadScene(nextSceneName);
         }
     }

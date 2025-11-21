@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 17a259ba4060ff74aa1a85bb7a9fbfb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2060135712616303207
+    second: explosion-ezgif.com-crop_0
+  - first:
+      213: -2280474932328678925
+    second: explosion-ezgif.com-crop_1
+  - first:
+      213: 6443282616216005164
+    second: explosion-ezgif.com-crop_2
+  - first:
+      213: -1648168016089846338
+    second: explosion-ezgif.com-crop_3
+  - first:
+      213: -7214485986657981767
+    second: explosion-ezgif.com-crop_4
+  - first:
+      213: -302799441077744018
+    second: explosion-ezgif.com-crop_5
+  - first:
+      213: 1381839009041554226
+    second: explosion-ezgif.com-crop_6
+  - first:
+      213: 7157566529853055269
+    second: explosion-ezgif.com-crop_7
+  - first:
+      213: 4640844666831852070
+    second: explosion-ezgif.com-crop_8
+  - first:
+      213: 6733784242946121581
+    second: explosion-ezgif.com-crop_9
+  - first:
+      213: -2071067641989897942
+    second: explosion-ezgif.com-crop_10
+  - first:
+      213: -1750324494451883549
+    second: explosion-ezgif.com-crop_11
+  - first:
+      213: 5345969164496810308
+    second: explosion-ezgif.com-crop_12
+  - first:
+      213: -2600918618437302943
+    second: explosion-ezgif.com-crop_13
+  - first:
+      213: 9073917364575567640
+    second: explosion-ezgif.com-crop_14
+  - first:
+      213: -8449769909700802185
+    second: explosion-ezgif.com-crop_15
+  - first:
+      213: 4356944114039129777
+    second: explosion-ezgif.com-crop_16
+  - first:
+      213: -4450591878658518119
+    second: explosion-ezgif.com-crop_17
+  - first:
+      213: 6023094249663316980
+    second: explosion-ezgif.com-crop_18
+  - first:
+      213: -5406276786019257796
+    second: explosion-ezgif.com-crop_19
+  - first:
+      213: -1700643483789561384
+    second: explosion-ezgif.com-crop_20
+  - first:
+      213: -6426867345277720513
+    second: explosion-ezgif.com-crop_21
+  - first:
+      213: -3259170956662680803
+    second: explosion-ezgif.com-crop_22
+  - first:
+      213: -6251480908068390913
+    second: explosion-ezgif.com-crop_23
+  - first:
+      213: -4790831046291493269
+    second: explosion-ezgif.com-crop_24
+  - first:
+      213: -1164697423650174397
+    second: explosion-ezgif.com-crop_25
+  - first:
+      213: -4163256405662940207
+    second: explosion-ezgif.com-crop_26
+  - first:
+      213: 3830665412768572339
+    second: explosion-ezgif.com-crop_27
+  - first:
+      213: -5500525867089523754
+    second: explosion-ezgif.com-crop_28
+  - first:
+      213: -8969485253151475792
+    second: explosion-ezgif.com-crop_29
+  - first:
+      213: -2626199542022049864
+    second: explosion-ezgif.com-crop_30
+  - first:
+      213: 50234403352270144
+    second: explosion-ezgif.com-crop_31
+  - first:
+      213: -2278735651356060431
+    second: explosion-ezgif.com-crop_32
+  - first:
+      213: 5669971754234409747
+    second: explosion-ezgif.com-crop_33
+  - first:
+      213: -3491902928126589070
+    second: explosion-ezgif.com-crop_34
+  - first:
+      213: 1537872678715464793
+    second: explosion-ezgif.com-crop_35
+  - first:
+      213: 4831870245279350622
+    second: explosion-ezgif.com-crop_36
+  - first:
+      213: -1324189740282940635
+    second: explosion-ezgif.com-crop_37
+  - first:
+      213: 1805600750883036821
+    second: explosion-ezgif.com-crop_38
+  - first:
+      213: -2133322188764114249
+    second: explosion-ezgif.com-crop_39
+  - first:
+      213: 3235930130544633064
+    second: explosion-ezgif.com-crop_40
+  - first:
+      213: -34329493588706187
+    second: explosion-ezgif.com-crop_41
+  - first:
+      213: 1071573120640678796
+    second: explosion-ezgif.com-crop_42
+  - first:
+      213: -7762447277267261515
+    second: explosion-ezgif.com-crop_43
+  - first:
+      213: 7736414529117119216
+    second: explosion-ezgif.com-crop_44
+  - first:
+      213: 8797382143536534729
+    second: explosion-ezgif.com-crop_45
+  - first:
+      213: 2568637606539735316
+    second: explosion-ezgif.com-crop_46
+  - first:
+      213: -5484281774889788930
+    second: explosion-ezgif.com-crop_47
+  - first:
+      213: 6560880022937347983
+    second: explosion-ezgif.com-crop_48
+  - first:
+      213: -8441048708133314187
+    second: explosion-ezgif.com-crop_49
+  - first:
+      213: -3620670019805472050
+    second: explosion-ezgif.com-crop_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a479bf382179c10800000000000000
+      internalID: 2060135712616303207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9bd5ba1202a50e0800000000000000
+      internalID: -2280474932328678925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a2107c6632b6950800000000000000
+      internalID: 6443282616216005164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdedc6fbe78029e0800000000000000
+      internalID: -1648168016089846338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9baa738183ff0eb90800000000000000
+      internalID: -7214485986657981767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ecf5c338d3ccbf0800000000000000
+      internalID: -302799441077744018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b13b6e1474d2310800000000000000
+      internalID: 1381839009041554226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521ed1426d8c45360800000000000000
+      internalID: 7157566529853055269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6225740e2a7976040800000000000000
+      internalID: 4640844666831852070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f1de28715337d50800000000000000
+      internalID: 6733784242946121581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21e26dd3f61243e0800000000000000
+      internalID: -2071067641989897942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1c78a552995b7e0800000000000000
+      internalID: -1750324494451883549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441360681a2b03a40800000000000000
+      internalID: 5345969164496810308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165485afb4ea7ebd0800000000000000
+      internalID: -2600918618437302943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f76c474c70ded70800000000000000
+      internalID: 9073917364575567640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779cf7239036cba80800000000000000
+      internalID: -8449769909700802185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion-ezgif.com-crop_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6088f6699f67c30800000000000000
+      internalID: 4356944114039129777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 161966768188cf542aeaab3b5e179683
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":200.0,"y":200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      explosion-ezgif.com-crop_0: 2060135712616303207
+      explosion-ezgif.com-crop_1: -2280474932328678925
+      explosion-ezgif.com-crop_10: -2071067641989897942
+      explosion-ezgif.com-crop_11: -1750324494451883549
+      explosion-ezgif.com-crop_12: 5345969164496810308
+      explosion-ezgif.com-crop_13: -2600918618437302943
+      explosion-ezgif.com-crop_14: 9073917364575567640
+      explosion-ezgif.com-crop_15: -8449769909700802185
+      explosion-ezgif.com-crop_16: 4356944114039129777
+      explosion-ezgif.com-crop_2: 6443282616216005164
+      explosion-ezgif.com-crop_3: -1648168016089846338
+      explosion-ezgif.com-crop_4: -7214485986657981767
+      explosion-ezgif.com-crop_5: -302799441077744018
+      explosion-ezgif.com-crop_6: 1381839009041554226
+      explosion-ezgif.com-crop_7: 7157566529853055269
+      explosion-ezgif.com-crop_8: 4640844666831852070
+      explosion-ezgif.com-crop_9: 6733784242946121581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
